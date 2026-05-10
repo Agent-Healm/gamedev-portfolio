@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.project-card-grid {
+        @apply flex flex-col gap-y-6;
+}
+
+a {
+        @apply text-blue-400 underline;
+}
+
+h1 {
+        @apply text-4xl mb-10 ;
+}
+
+h2 {
+        @apply text-2xl ;
+
+}

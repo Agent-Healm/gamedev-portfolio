@@ -2,164 +2,232 @@
 
 <head>
 <!-- whttps://agent-healm.github.io/gamedev-portfolio -->
-
+<!-- https://www.iamdeantate.com/ -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./src/styles/output.css" rel="stylesheet">
 </head>
 
-<body>
-        <!-- https://www.iamdeantate.com/ -->
-        <h1>About</h1>
-        I'm a developer focused on game developments using Unity. 
-        I enjoy building games mostly for Android device. 
-        I've worked on several personal and academic projects focusing on creating gameplay systems from scratch, designing UI, performance optimization, and Git integration.
-
-        <br/>
-        <a href="mailto:kevinmaverik2004@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/kevin-maverick-a1105a2b3">LinkedIn</a>
-
-        <hr/>
-        <h1>Projects</h1>
+<body class="bg-white m-20 mr-20">
+        <nav class="">
+                <h1 class="font-extrabold justify-self-center w-fit">
+                        KEVIN MAVERICK - GAME DEVELOPER PORTFOLIO
+                </h1>
+        </nav>
         
-        <div >
-                SuperEnglish Animal (2025) <br/>
-                <img src="src/images/animal/super-english-animal.png"/>
-                <br/>
-                
-                Link:
-                <a
-                href="https://play.google.com/store/apps/details?id=com.geometrisatu.superenglish.animal&hl=en_US"
-                >
-                Google Play Store
-                </a>
-                <br/>
-
-                Link:
-                <a
-                href="src/portofolio-pages/se-animal.html"
-                >Portfolio Page
-                </a>
-                <br/>
-                
-                Job Title: Project Manager
-                <br/>
-
-                Contributions:
-                Collaborated on a three-person team to UI design, 
-                designed VFX mechanics with 3rd party plugins, 
-                integrated Firebase service for database and user authentication
-                <br/>
-
-                Studio: GeometriSatu Studio
-                <br/>
-                Platforms: Android
-                <br/>
-                Team Size : Three members (
-                        myself,
-                        <a href="https://github.com/dedoodle7">Jonathan Ignasius Sitanggang</a>
-                        ,and 
-                        <a href="https://github.com/BrianTzr">Brian Abednego</a>
-                        ) 
-                <br/>
-                
-                Engine and Tools: 
-                Unity Engine and Assets, 
-                Firebase for user authentication, 
-                Google Play Store for Distributions
-                <br/>
-                
-                Project Length: 3 months
-                <br/>
+        <h1 class="">
+                About
+        </h1>
+        <div class="flex flex-row justify-center gap-12">
+                <div class="">
+                        <img src="/src/images/kevin.png" alt="My Picture" width="400px"/>
+                </div>
+                <div class="flex flex-col gap-4">
+                        <p class="font-bold">
+                        I do level and system designer using Unity
+                        </p>
+                        <p>
+                        I build games mostly for Android device. 
+                        </p>
+                        <p>
+                        I've worked on several personal and academic projects focusing on creating gameplay systems from scratch, designing UI, performance optimization, and Git integration.
+                        </p>
+                </div>
         </div>
-        <br/>
+
+        <div>
+                <a href="mailto:kevinmaverik2004@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/kevin-maverick-a1105a2b3">LinkedIn</a>
+        </div>
+
+        <hr class="mt-20 mb-20"/>
+        <h1 class="mt-10 mb-10">PROJECTS</h1>
         
-        <div >
-                SuperEnglish Space (2025) <br/>
-                <img src="src/images/space/super-english-space.png"/>
-                <br/>
-                
-                Link: 
-                <a
-                href="https://play.google.com/store/apps/details?id=com.geometrisatu.superenglish.space&hl=en_US"
-                > Google Play Store
-                </a> 
-                <br/>
+        <div class="grid grid-cols-2 gap-x-8 gap-y-20">
+                <div class="project-card-grid">
+                        <h2>
+                                SUPERENGLISH ANIMAL (2025)
+                        </h2>
 
-                Link:
-                <a
-                href="src/portofolio-pages/se-space.html"
-                >Portfolio Page
-                </a>
-                <br/>
-                
-                Job Title: Project Manager
-                <br/>
-
-                Contributions: 
-                Collaborated on a three-person team to UI design, 
-                designed VFX mechanics with 3rd party plugins, 
-                integrated Firebase service for database and user authentication
-                <br/>
-
-                Studio: GeometriSatu Studio
-                <br/>
-                Platforms: Android
-                <br/>
-                
-                Team Size : Three members (
-                        myself,
-                        <a href="https://github.com/dedoodle7">Jonathan Ignasius Sitanggang</a>
-                        ,and 
-                        <a href="https://github.com/BrianTzr">Brian Abednego</a>
-                        ) 
-                <br/>
-                
-                Engine and Tools: 
-                Unity Engine and Assets, 
-                Firebase for user authentication, 
-                Google Play Store for Distributions
-                <br/>
-                
-                Project Length: 3 months
-                <br/>
-        </div>
-        <br/>
+                        <img 
+                        class="mt-4 mb-4"
+                        src="src/images/animal/super-english-animal.png"/>
+                        
+                        <div>
+                                Link:
+                                <a 
+                                href="https://play.google.com/store/apps/details?id=com.geometrisatu.superenglish.animal&hl=en_US"
+                                >
+                                Google Play Store
+                                </a>
+                        </div>
         
-        <div >
-                Super English Together (2026) <br/>
-                <img src="src/images/together/super-english-together.png"/>
-                <br/>
-
-                Link: 
-                <a
-                href="https://play.google.com/store/apps/details?id=com.geometrisatu.superenglish.multi">
-                Google Play Store        
-                </a>
-                <br/>
-
-                Link:
-                <a
-                href="src/portofolio-pages/se-together.html"
-                >Portfolio Page
-                </a>
-                <br/>
-
-                Contributions: 
-                Built a multiplayer game. Integrated Firebase service for database, user authentication, and serverless backend. 
-                Debug and designed logging for multiplayer session, optimized resource usage for server instance
-                <br/>
-
-                Studio: GeometriSatu Studio
-                <br/>
-                Platforms: Android
-                <br/>
+                        <div>
+                                Link:
+                                <a
+                                href="src/portofolio-pages/se-animal.html"
+                                >
+                                Portfolio Page
+                                </a>
+                        </div>
+                        
+                        <div>
+                                Job Title: Project Manager
+                        </div>
+        
+                        <div>
+                                Contributions:
+                                Collaborated on a three-person team to UI design, 
+                                designed VFX mechanics with 3rd party plugins, 
+                                integrated Firebase service for database and user authentication
+                        </div>
+        
+                        <div>
+                                Studio: GeometriSatu Studio
+                        </div>
+                        
+                        <div>
+                                Platforms: Android
+                        </div>
+                        
+                        <div>
+                                Team Size : Three members (
+                                myself,
+                                <a href="https://github.com/dedoodle7">Jonathan Ignasius Sitanggang</a>
+                                ,and 
+                                <a href="https://github.com/BrianTzr">Brian Abednego</a>
+                                ) 
+                        </div>
+                        
+                        <div>
+                                Engine and Tools: 
+                                Unity Engine and Assets, 
+                                Firebase for user authentication, 
+                                Google Play Store for Distributions
+                        </div>
+                        
+                        <div>
+                                Project Length: 3 months
+                        </div>
+                        
+                </div>
                 
-                Engine and Tools: Unity Engine and Assets, Firebase for BaaS Service, Google Cloud Platform for VM hosting and metric logging, Google Play Store for Distributions
-                <br/>
-                Project Length: 7 months
-                <br/>
-        </div>
-        <br/>        
+                <div class="project-card-grid">
+                        <h2>
+                                SUPERENGLISH SPACE (2025)
+                        </h2>
 
-        <footer>
+                        <img 
+                        class="mt-4 mb-4"
+                        src="src/images/space/super-english-space.png"/>
+                        
+                        <div>
+                                Link: 
+                                <a
+                                href="https://play.google.com/store/apps/details?id=com.geometrisatu.superenglish.space&hl=en_US"
+                                > Google Play Store
+                                </a> 
+                        </div>
+
+                        <div>
+                                Link:
+                                <a
+                                href="src/portofolio-pages/se-space.html"
+                                >Portfolio Page
+                                </a>
+                        </div>
+
+                        <div>
+                                Job Title: Project Manager
+                        </div>
+                        
+                        <div>  
+                                Contributions: 
+                                Collaborated on a three-person team to UI design, 
+                                designed VFX mechanics with 3rd party plugins, 
+                                integrated Firebase service for database and user authentication
+                        </div>
+
+                        <div>
+                                Studio: GeometriSatu Studio
+                        </div>
+                        
+                        <div>
+                                Platforms: Android
+                        </div>
+
+                        <div>
+                                Team Size : Three members (
+                                myself,
+                                <a href="https://github.com/dedoodle7">Jonathan Ignasius Sitanggang</a>
+                                ,and 
+                                <a href="https://github.com/BrianTzr">Brian Abednego</a>
+                                ) 
+                        </div>
+                                
+                        <div>
+                                Engine and Tools: 
+                                Unity Engine and Assets, 
+                                Firebase for user authentication, 
+                                Google Play Store for Distributions
+                        </div>
+                        
+                        <div>
+                                Project Length: 3 months
+                        </div>
+                </div>
+                
+                <div class="project-card-grid">
+                        <h2>
+                                SUPER ENGLISH TOGETHER (2026)
+                        </h2>
+
+                        <img 
+                        class="mt-4 mb-4"
+                        src="src/images/together/super-english-together.png"/>
+        
+                        <div>
+                                Link: 
+                                <a
+                                href="https://play.google.com/store/apps/details?id=com.geometrisatu.superenglish.multi">
+                                Google Play Store        
+                                </a>
+                        </div>
+        
+                        <div>
+                                Link:
+                                <a
+                                href="src/portofolio-pages/se-together.html"
+                                >Portfolio Page
+                                </a>
+                        </div>
+        
+                        <div>
+                                Contributions: 
+                                Built a multiplayer game. Integrated Firebase service for database, user authentication, and serverless backend. 
+                                Debug and designed logging for multiplayer session, optimized resource usage for server instance
+                        </div>
+        
+                        <div>
+                                Studio: GeometriSatu Studio
+                        </div>
+
+                        <div>
+                                Platforms: Android
+                        </div>
+                        
+                        <div>
+                                Engine and Tools: Unity Engine and Assets, Firebase for BaaS Service, Google Cloud Platform for VM hosting and metric logging, Google Play Store for Distributions
+                        </div>
+
+                        <div>
+                                Project Length: 7 months
+                        </div>
+                </div>
+
+        </div>
+
+        <footer class="mt-40">
                 &copy; 2026 Kevin Maverick
         </footer>
 </body>
