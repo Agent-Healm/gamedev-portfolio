@@ -1,11 +1,11 @@
 function topNav(){
         return `
-        <nav class="mb-20">
+        <nav class="nav-top mb-20">
                 <h1 class="font-extrabold w-fit">
                         KEVIN MAVERICK - GAME DEVELOPER PORTFOLIO
                 </h1>
 
-                <a href="/index.html">Home</a>
+                <a href="/index.html">HOME</a>
                 <br/>
 
         </nav>

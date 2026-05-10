@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @layer components{
-
-        .project-card-grid {
+        
+        .project-card {
                 @apply flex flex-col gap-y-4;
         }
         
@@ -27,4 +27,8 @@
                 @apply font-normal;
         }
 
+}
+
+.nav-top a{
+        @apply text-gray-400 no-underline hover:text-black;
 }
