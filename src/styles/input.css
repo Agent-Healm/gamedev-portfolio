@@ -1,22 +1,30 @@
 @import "tailwindcss";
 
-.project-card-grid {
-        @apply flex flex-col gap-y-6;
-}
+@layer components{
 
-a {
-        @apply text-blue-400 underline;
-}
-
-h1 {
-        @apply text-4xl mb-8;
-}
-
-h2 {
-        @apply text-3xl mb-4 font-extralight;
-}
-
-h3 {
-        @apply text-2xl font-thin;
+        .project-card-grid {
+                @apply flex flex-col gap-y-4;
+        }
+        
+        a {
+                @apply text-blue-400 underline;
+        }
+        
+        h1 {
+                @apply text-4xl mb-8;
+        }
+        
+        h2 {
+                @apply text-3xl mb-4 font-extralight;
+        }
+        
+        h3 {
+                @apply text-2xl font-thin;
+        
+        }
+        
+        p {
+                @apply font-normal;
+        }
 
 }

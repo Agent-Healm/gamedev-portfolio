@@ -4,6 +4,10 @@ function topNav(){
                 <h1 class="font-extrabold w-fit">
                         KEVIN MAVERICK - GAME DEVELOPER PORTFOLIO
                 </h1>
+
+                <a href="/index.html">Home</a>
+                <br/>
+
         </nav>
         `;
 }
