@@ -30,5 +30,5 @@
 }
 
 .nav-top a{
-        @apply text-gray-400 no-underline hover:text-black;
+        @apply text-gray-400 no-underline hover:text-black text-sm;
 }

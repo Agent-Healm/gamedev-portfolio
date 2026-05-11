@@ -5,8 +5,11 @@ function topNav(){
                         KEVIN MAVERICK - GAME DEVELOPER PORTFOLIO
                 </h1>
 
-                <a href="./index.html">HOME</a>
-                <br/>
+                <a href="./index.html">
+                <p>        
+                HOME
+                </p>
+                </a>
 
         </nav>
         `;
